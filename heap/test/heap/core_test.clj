@@ -19,5 +19,8 @@
 
 (deftest test-swap (is (= (swap [1 2 3] 2 1) [1 3 2])))
 
+(deftest test-spit 
+	(log "write " "what")
+	(is (= "what" (slurp "log.txt"))))
 ;(deftest test-main (= (-main "in.txt") ()))
 
