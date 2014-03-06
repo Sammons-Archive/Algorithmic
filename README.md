@@ -9,3 +9,5 @@ in any clojure projects the code will be found in the projectname/src/projectnam
 ruby files here can be run with a basic "Ruby filename",
 any inputs needed will be coded into the projects by default (but be ready to accept args!)
 
+--update -- One day I will get the time to play with algorithms!
+
